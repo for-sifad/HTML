@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lession 2</title>
+
+    <style>
+        form .basic input {
+            display: block;
+            margin-bottom: 6px;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,24 +36,71 @@
             </video>
         </section>
 
-       <section>
-         <!-- iframe -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/mYNHKXfgNC4?si=44WTvOEk-_v3ths0"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-       </section>
+        <section>
+            <!-- iframe -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mYNHKXfgNC4?si=44WTvOEk-_v3ths0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
 
-       <figure>
-        <!-- image -->
-         <img src="./media/2027_(2).jpg" alt="2027 coming image" style="width: 50%; height: 40%;">
-         <figurecaption>2027 coming image</figurecaption>
-       </figure>
+        <figure>
+            <!-- image -->
+            <img src="./media/2027_(2).jpg" alt="2027 coming image" style="width: 50%; height: 40%;">
+            <figurecaption>2027 coming image</figurecaption>
+        </figure>
+
+        <section>
+            <!-- form -->
+            <h2>form</h2>
+            <form>
+                <fieldset class="basic">
+                    <legend>Basic info</legend>
+
+                    <label for="name">Name</label>
+                    <input type="text" name="" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pitha info</legend>
+
+                    <input type="radio" name="ptha" id="chitoy">
+                    <label for="chitoy">Chitoy</label>
+
+                    <input type="radio" name="ptha" id="vapa">
+                    <label for="vapa">Vapa</label>
+
+                    <input type="radio" name="ptha" id="rice">
+                    <label for="rice">Rice cake</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Vorta info</legend>
+
+                    <input type="checkbox" name="vorta" id="shorisha">
+                    <label for="shorisha">Shorisha</label>
+
+                    <input type="checkbox" name="vorta" id="shutki">
+                    <label for="shutki">Shutkia</label>
+
+                    <input type="checkbox" name="vorta" id="morich">
+                    <label for="morich">Morich</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Feedback</legend>
+                    <textarea cols="50" rows="6" id=""></textarea>
+                </fieldset>
+            </form>
+        </section>
     </main>
 
     <!-- footer -->
-     <footer style="text-align: center; margin-top: 20px;">
+    <footer style="text-align: center; margin-top: 20px;">
         <small>Copyright &copy; 2024</small>
-     </footer>
+    </footer>
 
 </html>
