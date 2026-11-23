@@ -11,6 +11,18 @@
             display: block;
             margin-bottom: 6px;
         }
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            margin-top: 20px;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px 20px;
+        }
     </style>
 </head>
 
@@ -95,6 +107,45 @@
                     <textarea cols="50" rows="6" id=""></textarea>
                 </fieldset>
             </form>
+        </section>
+
+        <section>
+            <!-- table -->
+            <table>
+                <caption>School present sheet</caption>
+
+                <thead>
+                    <tr>
+                        <td>index</td>
+                        <td>name</td>
+                        <td>roll</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Sifad</td>
+                        <td>261178</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Saiful</td>
+                        <td>261179</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Juthi</td>
+                        <td>261180</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total student: 03</td>
+                    </tr>
+                </tfoot>
+            </table>
         </section>
     </main>
 
