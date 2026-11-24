@@ -1,19 +1,19 @@
-body{
+body {
     max-width: 1366px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin: 0 10px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: black;
 }
@@ -23,19 +23,19 @@ nav ul li a:hover {
     color: white
 }
 
-.hero-container{
+.hero-container {
     background-color: aquamarine;
     display: flex;
-    align-items:center;
+    align-items: center;
     width: 80%;
     margin: 20px auto;
 }
 
-.hero-container div{
+.hero-container div {
     padding: 20px;
 }
 
-.hero-container button{
+.hero-container button {
     padding: 10px 30px;
     font-size: 16px;
     background-color: brown;
@@ -43,6 +43,37 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-.hero-container img{
+.hero-container img {
     width: 500px;
+}
+
+.card-section {
+    text-align: center;
+}
+
+.card-container {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid rgb(248, 109, 109);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px 0px red;
+}
+
+.card img {
+    width: 300px
+}
+
+.card button {
+    padding: 4px 10px;
+    background-color: white;
+    color: brown;
 }
